@@ -22,27 +22,31 @@ ul{
 	justify-content: space-between;
 	align-items: center;}
 
-.span{
-	font-size: 32px;
-	color: #4B647E;
+
 }
 
 
-.header h1{
+/*header*/
+.headerh1{
+    font: bold 32px 'Lato';
 	font-size: 32px;
-	color:#3D37F1 ;
-	text-transform: capitalize;
+    color: #3D37F1;
+    text-transform: capitalize;
 }
 
+.headerh1{
+	font-size: 32;
+	color: #3D37F1;
+}
 
 .header span{
-	font-size: 32px;
-	color: #4B647E;
+	font: 32px 'Lato';
+    color: #4B647E;
 }
 
 ul a{
-	font-size: 20px;
-	color:#3D37F1;
+	 font: bold 20px 'Lato';
+    color: #3D37F1;
 }
 
 ul li:hover{
@@ -61,27 +65,33 @@ ul li{
 }
 .banner{
 	width: 1708px;
+	margin: 338px auto;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;}
-
+	justify-content:space-around;
+}
 .bannerleft{
-	width: 600px;
-	display: flex;
+	width: 602px;
 	flex-direction: column;
+	margin-top: 100px;
+	margin-left: 20px;
+	display: inline-block;
+
 }
 
 .bannerleft h2{
-	font-size: 78px;
-	color: #534D4D;
+	 font: bold 78px 'Lato';
+    color: #534D4D;
 }
 .bannerleft h6{
-	font-size: 22px;
-	color: #534D4D ;
-	margin: 42px 0 100px;
+	font: 22px 'Roboto';
+    color: #534D4D;
+    margin: 42px 0 100px;
 }
 .image{
-	width: 801px;
+	width: 800px;
+	display: inline-block;
+	margin-top: 80px;
+
 }
 .wm{
 	background-color: #3D37F1;
@@ -98,7 +108,7 @@ ul li{
 	opacity: :80%;
 }
 .wm span{
-	font-size: 23px;
+	font: normal 23px 'Poppins';
 }
 .sectionwrap{
 	width: 1169px;
@@ -106,20 +116,21 @@ ul li{
     display: flex;
     flex-direction: column;
     text-align: center
-}
+    }
+
 .sectionwrap span{
-	font-size: 20px;
-	color: #3D37F1;
+	 font: bold 20px 'Lato';
+    color: #3D37F1;
 }
 .sectionwrap h3{
-	font-size: 40px;
+	 font: normal 40px 'Lato';
     color: #5A5454;
     margin: 17px 0 21px;
 }
 .sectionwrap p{
 	width: 712px;
     margin: 0 auto;
-    font-size: 18px;
+    font: normal 18px 'Roboto';
     color: #747474;
     padding-bottom: 67px;
 }
@@ -128,7 +139,8 @@ ul li{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content:space-around;
+    margin-top: 200px;
 }
 
 
